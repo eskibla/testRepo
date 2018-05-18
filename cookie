@@ -14,3 +14,6 @@ function cookieHinweis() {
         $('#cookie_hinweis').hide();
     }
 }
+$('#cookie_hinweis').hide();
+}    $('#cookie_hinweis').hide();
+}
