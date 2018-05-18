@@ -30,6 +30,10 @@ function cookieHinweis() {
     hello
     woooooowhoooooo
     new changes
+<<<<<<< HEAD
     im doing hcnage
     
+=======
+    doing new changes hoo
+>>>>>>> 09f29119543f75a0106ca43518f32237e55f9100
 }
