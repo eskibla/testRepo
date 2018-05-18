@@ -1,0 +1,16 @@
+$(document).ready(function() {
+    cookieHinweis();
+});
+
+function cookieHinweis() {
+    var cookie_name = location.host + '_cookie_hint';
+    if (!jQuery.cookie(cookie_name)) {
+        $('#cookie_hinweis').removeClass('hidden');
+        $('#cookie_hinweis .close').on('click', function () {
+            jQuery.cookie(cookie_name, true, {expires: 365, path: '/'});
+            $('#cookie_hinweis').addClass('hidden');
+        });
+    }else{
+        $('#cookie_hinweis').hide();
+    }
+}
