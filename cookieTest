@@ -13,4 +13,8 @@ function cookieHinweis() {
     }else{
         $('#cookie_hinweis').hide();
     }
+        $('#cookie_hinweis').hide();
+    }    $('#cookie_hinweis').hide();
+    }    $('#cookie_hinweis').hide();
+    }
 }
